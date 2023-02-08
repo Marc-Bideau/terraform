@@ -40,6 +40,7 @@ le fichier output renvoi l'id de l'eip et son id
 4 - Ecrivez un module pour créer un security group qui ouvrira les ports 80 et 443
 
 ![image](https://user-images.githubusercontent.com/77395886/217514936-118d3032-3869-4ac3-bb9f-e61bc1d60909.png)
+
 le fichier main.tf contient la configuration du security group
 le fichier variable contient uniquement les tags du security group 
 le fichier output renvoi le nom
