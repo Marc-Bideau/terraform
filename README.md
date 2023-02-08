@@ -6,7 +6,8 @@
     → sa taille et son tag seront variabilisés
     
 j'ai créer un module EC2 avec un fichier main.tf, un output.tf et un fichier variable.tf
-    ![image](https://user-images.githubusercontent.com/77395886/217512345-57318ffe-57e5-4086-a961-96c17db7846b.png)
+
+![image](https://user-images.githubusercontent.com/77395886/217512345-57318ffe-57e5-4086-a961-96c17db7846b.png)
 
 le fichier main.tf contient la configuration de l'instance EC2.
 le fichier variable contient le différente variable utilisé dans l'instance notament la clé ssh ou le type de l'instance
@@ -17,6 +18,7 @@ le fichier output renvoi l'id de l'instance ainsi que la zone
 2 - Ecrivez un module pour créer un volume EBS dont la taille sera variabilisée
 	PS: Dans Amazone, un EBS est un disque dur qu'on rattache à une VM. 
 Meme raisonement que pour le module EC2 avec l'EBS
+
 ![image](https://user-images.githubusercontent.com/77395886/217513396-7b0d646e-1e73-4a13-b4fd-d43dac124ff7.png)
 
 le fichier main.tf contient la configuration d'un volume EBS.
@@ -28,6 +30,7 @@ le fichier output renvoi l'id du volume de l'ebs
         → Elle s’attachera au security group
 
 ![image](https://user-images.githubusercontent.com/77395886/217514368-a53ea3d1-dcca-41d9-b2be-931b4b3846ff.png)
+
 le fichier main.tf contient la configuration du EIP.
 le fichier variable contient est vide 
 le fichier output renvoi l'id de l'eip et son id
